@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="application">
+      <UniqueIdentifier>{0c27dd98-040c-47ec-b850-88d63988750b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{0916c2aa-578f-47d9-80e9-8cbff88c81f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{26507869-383b-490e-b635-ba6df493dd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\file">
+      <UniqueIdentifier>{e2e4fd91-b69f-4103-a46e-12b3f0fa3aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\account">
+      <UniqueIdentifier>{e563a851-fd65-4d6e-9a99-cbf760f2ce27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\order">
+      <UniqueIdentifier>{c5b8aeae-04a5-4819-9417-d1643d30cb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\phone">
+      <UniqueIdentifier>{a8f4537e-0291-4a87-aaeb-78220f5101fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{80c311c2-a9d9-4e6e-bec9-3f1c895f2c08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="File.h">
+      <Filter>data\file</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>domain\account</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone_model.h">
+      <Filter>domain\phone</Filter>
+    </ClInclude>
+    <ClInclude Include="Order_model.h">
+      <Filter>domain\order</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone_provider.h">
+      <Filter>domain\phone</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
