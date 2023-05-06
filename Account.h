@@ -34,12 +34,13 @@ public:
 	{
 		this->setLogin("");
 		this->setPassword("");
-		this->setBalance("");
+		this->setBalance(0.0);
 	}
 	Account(string login, string password)
 	{
 		this->setLogin(login);
 		this->setPassword(password);
+		this->setBalance(0.0);
 	}
 	~Account() = default;
 };
