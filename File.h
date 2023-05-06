@@ -21,7 +21,7 @@ struct File
 		this->path = path;
 	}
 	
-	bool Write_acc(Account acc)
+	bool SignUp(Account acc)
 	{
         file.open(path, ios::app);
         if (file.is_open())

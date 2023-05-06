@@ -4,6 +4,7 @@ struct Account
 private:
 	string login;
 	string password;
+	double balance;
 public:
 	void setLogin(string login)
 	{
@@ -13,6 +14,10 @@ public:
 	{
 		this->password = password;
 	}
+	void setBalance(double balance)
+	{
+		this->balance = balance;
+	}
 	string getLogin()
 	{
 		return this->login;
@@ -21,10 +26,15 @@ public:
 	{
 		return this->password;
 	}
+	double balance()
+	{
+		return this->balance;
+	}
 	Account()
 	{
 		this->setLogin("");
 		this->setPassword("");
+		this->setBalance("");
 	}
 	Account(string login, string password)
 	{
